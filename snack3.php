@@ -41,7 +41,7 @@ $posts = [
 ];
 // itero su array posts e salvo chiave nella variabile $date associandoli il valore $sottoArray
 foreach ($posts as $date => $sottoArray) {
-    echo 'la data dei sottoArray è:' . $date;
+    echo 'data dei sottoArray:' . $date;
     // itero su array $sottoArray e salvo chiave nella variabile $post poi stampo ogni valore di post specificendolo tra []
     foreach ($sottoArray as $post) {
         echo 'titolo:' . $post['title'];
