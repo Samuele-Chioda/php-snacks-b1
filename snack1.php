@@ -1,4 +1,5 @@
 <?php
+
 $partite[] = array(
     "squadra_casa" => "Olimpia Milano",
     "squadra_ospite" => "Cantù",
@@ -28,7 +29,7 @@ $partite[] = array(
         <div>
             <?php foreach ($partite as $partita) {
                 echo $partita["squadra_casa"] . " - " . $partita["squadra_ospite"] . " | " . $partita["punti_casa"] . " - " . $partita["punti_ospite"] . "<br>";
-            } 
+            }
             ?>
         </div>
     </main>
