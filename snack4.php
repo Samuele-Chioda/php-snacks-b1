@@ -6,13 +6,12 @@ $max = 100;
 $numbersArray = [];
 
 // ciclo for per iterare 15 volte 
-for ($i = 0; $i < 15; $i++) {
+while (count($numbersArray) < 15) {
     $casualNumber = rand($min, $max);
     if ($casualNumber !== 15) {
         array_push($numbersArray, $casualNumber);
     }
 }
-var_dump($numbersArray);
 
 ?>
 
@@ -28,9 +27,15 @@ var_dump($numbersArray);
 <body>
     <main>
         <div>
-
+        <?php var_dump($numbersArray); ?>
         </div>
     </main>
 </body>
+
+<style>
+    div{
+        background-color: pink;
+    }
+</style>
 
 </html>
