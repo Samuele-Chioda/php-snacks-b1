@@ -24,3 +24,13 @@ echo '<p>' . $sezione . '</p>';
     </main>
 </body>
 </html>
+
+
+<style>
+    p{
+        background-color: pink;
+        border-radius: 1rem;
+        border: 2px solid black;
+        padding: .5rem;
+    }
+</style>
