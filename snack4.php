@@ -8,8 +8,11 @@ $numbersArray = [];
 // ciclo for per iterare 15 volte 
 for ($i = 0; $i < 15; $i++) {
     $casualNumber = rand($min, $max);
-    echo $casualNumber;
+    if ($casualNumber !== 15) {
+        array_push($numbersArray, $casualNumber);
+    }
 }
+var_dump($numbersArray);
 
 ?>
 
