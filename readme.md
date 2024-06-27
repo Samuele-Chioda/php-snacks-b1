@@ -17,3 +17,11 @@ Prendere un paragrafo abbastanza lungo, contenente diverse frasi. Prendere il pa
 
 Snack 6:
 Utilizzare questo array: https://pastebin.com/CkX3680A. Stampiamo il nostro array mettendo gli insegnanti in un rettangolo grigio e i PM in un rettangolo verde.
+
+Snack 7
+Creare un array contenente qualche alunno di un'ipotetica classe. Ogni alunno avrà Nome, Cognome e un array contenente i suoi voti scolastici. 
+Questo array dovra' essere inserito in un file separato, da importare.
+Stampare Nome, Cognome e la media dei voti di ogni alunno.
+
+Snack 8
+Creare un array di animali, che abbiano nome, specie, classe in un file animals.php. Creo quattro array diversi in cui inserire soltanto mammiferi, pesci, rettili e tutti gli altri. Nel nostro index.php stampiamo in pagina ognuno di questi array.
